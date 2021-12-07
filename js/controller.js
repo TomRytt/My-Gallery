@@ -66,7 +66,7 @@ function renderModal() {
 									${project.desc}
 									</p>
 									<ul class="list-inline">
-										<li>Date: January 2017</li>
+										<li class="text-lg" >Created at: ${project.publishedAt}</li>
 										<a class="btn btn-primary" target="blank" href="${project.url}">Check it out!</a>
 										<li>Category: ${project.labels}</li>
 									</ul>

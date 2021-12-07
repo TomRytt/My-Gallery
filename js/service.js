@@ -9,7 +9,7 @@ function createProjects() {
 			'Save all the Baby Yodas from the empire',
 			'Star wars themed minesweeper',
 			'https://tomrytt.github.io/MineSweeper/',
-			'Novemeber 2021',
+			`${new Date(1638724516000)}`,
 			['Game, Minesweeper, Star-wars, Project']
 		)
 	);
@@ -19,7 +19,7 @@ function createProjects() {
 			'The Classic Childrens Game',
 			'Classic Simon',
 			' https://tomrytt.github.io/Simon-Game/',
-			'Novemeber 2021',
+			`${new Date(1637774116000)}`,
 			['Game, Simon, Project']
 		)
 	);
@@ -29,7 +29,7 @@ function createProjects() {
 			'find the perfect match for your dog',
 			"It's Tinder, for dogs",
 			'https://www.facebook.com',
-			'Novemeber 2021',
+			`${new Date(1634318116000)}`,
 			['Match, Dogs, Project']
 		)
 	);
@@ -39,7 +39,7 @@ function createProjects() {
 			'See if you can beat the genie',
 			'Akinator',
 			'https://tomrytt.github.io/Guess-Me/',
-			'Novemeber 2021',
+			`${new Date(1631207716000)}`,
 			['Game, Akinator, Project']
 		)
 	);
