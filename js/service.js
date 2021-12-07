@@ -28,7 +28,7 @@ function createProjects() {
 			'TinDog',
 			'find the perfect match for your dog',
 			"It's Tinder, for dogs",
-			'https://www.facebook.com',
+			'https://tomrytt.github.io/TinDog/',
 			`${new Date(1634318116000)}`,
 			['Match, Dogs, Project']
 		)
