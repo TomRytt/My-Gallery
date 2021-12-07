@@ -23,8 +23,8 @@ function renderProjects() {
 					<img class='img-fluid' src='img/portfolio/${project.id}.jpg' alt='' />
 				</a>
 				<div class='portfolio-caption'>
-					<h4>${project.name}</h4>
-					<p class='text-muted'>${project.title}</p>
+					<h5>${project.name}</h5>
+					<p>${project.title}</p>
 				</div>
 			</div>
 		`;

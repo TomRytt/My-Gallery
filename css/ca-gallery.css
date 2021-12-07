@@ -2,6 +2,7 @@ body {
 	overflow-x: hidden;
 	font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	background-color: rgba(243, 238, 229, 0.849);
+	color: #1e9c8f;
 }
 p {
 	line-height: 1.75;
@@ -26,12 +27,13 @@ h6 {
 	text-transform: uppercase;
 }
 section {
-	padding: 100px 0;
+	padding: 75px 0 0;
 }
 section h2.section-heading {
+	color: #1e9c8f;
 	font-size: 40px;
 	margin-top: 0;
-	margin-bottom: 15px;
+	margin-bottom: 30px;
 }
 section h3.section-subheading {
 	font-size: 16px;
@@ -43,7 +45,7 @@ section h3.section-subheading {
 }
 @media (min-width: 768px) {
 	section {
-		padding: 100px 0;
+		padding: 75px 0 0;
 	}
 }
 ::-moz-selection {
@@ -78,6 +80,7 @@ body {
 	cursor: pointer;
 	margin-right: 0;
 	transition: all 0.3s ease;
+	color: black;
 }
 .offcanvas-btn-open {
 	margin-right: 80vw;
@@ -247,6 +250,7 @@ header.masthead .intro-text .intro-heading {
 #portfolio .portfolio-item {
 	right: 0;
 	margin: 0 0 15px;
+	min-height: 25rem;
 }
 #portfolio .portfolio-item .portfolio-link {
 	position: relative;
@@ -309,7 +313,7 @@ header.masthead .intro-text .intro-heading {
 	margin: 0 auto;
 	padding: 25px;
 	text-align: center;
-	background-color: white;
+	background-color: rgba(227, 227, 228, 0.397);
 }
 #portfolio .portfolio-item .portfolio-caption h4 {
 	margin: 0;
@@ -320,6 +324,15 @@ header.masthead .intro-text .intro-heading {
 	font-style: italic;
 	margin: 0;
 	font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.portfolio-link {
+	min-height: 50%;
+}
+.portfolio-link img {
+	min-height: 200px;
+}
+.portfolio-caption {
+	height: 50%;
 }
 #portfolio * {
 	z-index: 2;
@@ -806,4 +819,9 @@ fieldset[disabled] .btn-xl:hover {
 
 .modal-body li {
 	margin-top: 5px;
+}
+
+.about-me {
+	padding-left: 2rem;
+	padding-top: 3.5rem;
 }

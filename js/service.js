@@ -5,7 +5,7 @@ var gIdCounter = 0;
 function createProjects() {
 	gProjects.push(
 		createProject(
-			'Star-Wars themed MineSweeper',
+			'Star-Wars MineSweeper',
 			'Save all the Baby Yodas from the empire',
 			'Star wars themed minesweeper',
 			'https://tomrytt.github.io/MineSweeper/',
