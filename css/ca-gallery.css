@@ -80,7 +80,7 @@ body {
 	cursor: pointer;
 	margin-right: 0;
 	transition: all 0.3s ease;
-	color: black;
+	color: whitesmoke;
 }
 .offcanvas-btn-open {
 	margin-right: 80vw;
@@ -149,16 +149,17 @@ body {
 	color: #1e9c8f;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
-	font-size: 90%;
-	font-weight: 400;
 	padding: 0.75em 0;
 	letter-spacing: 1px;
 	color: white;
+	font-size: large;
+	font-weight: 400;
 	font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	text-transform: uppercase;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active,
 #mainNav .navbar-nav .nav-item .nav-link:hover {
+	cursor: pointer;
 	color: #1e9c8f;
 }
 @media (min-width: 992px) {
@@ -313,7 +314,7 @@ header.masthead .intro-text .intro-heading {
 	margin: 0 auto;
 	padding: 25px;
 	text-align: center;
-	background-color: rgba(227, 227, 228, 0.397);
+	background-color: ghostwhite;
 }
 #portfolio .portfolio-item .portfolio-caption h4 {
 	margin: 0;
@@ -824,4 +825,10 @@ fieldset[disabled] .btn-xl:hover {
 .about-me {
 	padding-left: 2rem;
 	padding-top: 3.5rem;
+}
+.portfolio-main {
+	background-color: whitesmoke;
+}
+.me-main {
+	background-color: whitesmoke;
 }
